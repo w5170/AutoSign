@@ -9,12 +9,12 @@ exports.describe = 'unicom任务'
 exports.builder = function (yargs) {
   return yargs
     .option('user', {
-      describe: '用于登录的手机号码',
+      describe: '16627501037',
       default: '',
       type: 'string'
     })
     .option('password', {
-      describe: '用于登录的账户密码',
+      describe: '101600',
       default: '',
       type: 'string'
     })
